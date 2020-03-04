@@ -96,8 +96,32 @@ td {
 
 .des {
     text-align: center;
-    width: 50%;
+    width: 512px;
     margin: 10px auto;
     line-height: 23px;
     font-size: 15px;
+}
+
+#saved {
+    margin: 0 auto;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 630px) {
+
+    .inputs-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .des {
+        width: 100%;
+    }
+
+
+
 }
