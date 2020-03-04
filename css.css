@@ -21,9 +21,8 @@ h2 {
 .inputs-block {
     display: flex;
     align-items: flex-end;
+    justify-content: center;
     padding: 0;
-    width: 50%;
-    margin: 0 auto;
 }
 
 #inputs-section {
@@ -58,17 +57,15 @@ h2 {
 }
 
 .rus-word {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: lighter;
     line-height: 43px;
-    margin: 40px 0px;
-    display: inline-block;
+    margin: 10px 0px;
 }
 
 .eng-word {
     font-weight: bold;
     font-size: 25px;
-    display: inline-block;
     margin-right: 20px;
     line-height: 43px;
 }
@@ -80,9 +77,27 @@ h2 {
 .btn-delete {
     border: none;
     background: none;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: normal;
+    font-size: 18px;
     padding-top: 11px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 13px;
+}
+
+td {
+    padding: 0;
+    margin: 0;
+}
+
+.tr {
+    display: flex;
+    align-items: baseline;
+}
+
+.des {
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    line-height: 23px;
+    font-size: 15px;
 }
