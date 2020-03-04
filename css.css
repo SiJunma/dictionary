@@ -103,12 +103,19 @@ td {
 }
 
 #saved {
+    display: inline-flex;
     margin: 0 auto;
+    flex-direction: column-reverse;
+    align-items: flex-start;
 }
 
 .container {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.table-wrapper {
+    text-align: center;
 }
 
 @media screen and (max-width: 630px) {
